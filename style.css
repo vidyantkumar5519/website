@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "Roboto", sans-serif;;
+}
+
+:root{
+    --bs-dark-color:#1a1020;
+    --bs-dark-primary: #1c1c1c;
+    --bs-main-color:#fff:
+   --bs-primary-color:#c6c6c6;
+    --bs-secondary-color:#29a9fd;
+    --bs-warning-color:#FFF455;
+    --bs-ratingstart-color:#07272e;
+    --bs-button-color:#7ED7C1;
+
+    --bs-bobycolor-color:#212529;
+}
+.bg-main{
+    position: relative;
+
+}
+a{
+    color:var(--bs-dark-primary);
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+#trademark{
+    
+}
+.nav-link{
+   color:var(--bs-dark-color);
+   font-weight: 500;
+   font-size:1rem;
+   margin-right: 4rem;
+   /* padding-right: 10rem; */
+   font-family: "poppins",sans-serif;
+   
+
+
+}
+.nav-link:hover, .active>.nav-link {
+    transition: 0.2s ease-in-out;
+    color: var(--bs-warning-color);
+    -webkit-transform: scale(1.1);
+     -ms-transform: scale(1.1);
+         transform: scale(1.1);
+         transform: translateY(-1px);
+}
+
+.navbar{
+    background: linear-gradient(45deg, rgb(28, 155, 228,1) 20%, rgba(0,255,248,1) 70%);
+    width: 100%;
+}
+.navbar-custom{
+    /* border: solid; */
+    z-index: 99999;
+}
+.container{
+ justify-content: ;
+ /* border: solid; */
+ width: 100%;
+}
+.photo-section{
+    /* border: solid red; */
+}
+.Services-section{
+    /* border: solid; */
+}
+.service-cart{
+    /* border: solid; */
+}
+
+.premium-section{
+    /* border: solid yellow; */
+}
+
+.btn{
+   margin: 0.3rem;
+}
+.btn:hover
+{
+    background-color: var(--bs-button-color);
+    
+}
+.card{
+    width: 20rem;
+   
+   
+}
+.row{
+    /* border: solid; */
+}
+#card-style{
+    height: 91%;
+    /* border: solid; */
+    
+}
+#card-style:hover{
+    box-shadow: 5px 5px 60px 5px rgba(0, 0, 0, 0.536);
+    border-radius: 10%;
+    cursor: pointer;
+    transform: scaleY(1.01);
+      
+}
+
+.fa-solid{
+    color:var(--bs-ratingstart-color);
+}
